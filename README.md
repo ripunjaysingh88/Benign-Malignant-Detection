@@ -27,7 +27,6 @@ Augmentations applied on images are -
 ## Base Model from Pre-Trained Model
 
 VGG16 pre-trained model is used which is trained on Imagenet dataset.
-
 ### Learning Curves for Base Model
 ![](images/base_model_learning_curve.JPG)
 ### Base Model Performance
@@ -38,7 +37,7 @@ VGG16 pre-trained model is used which is trained on Imagenet dataset.
 
 . Sensitivity/True_Positive_Rate - 0.84
 
-![](images/base_model_classsification_report.JPG)
+![](images/base_model_classification_report.JPG)
 
 ## Fine Tunned Model
 
@@ -64,13 +63,9 @@ Model was fine tunned from layer 15th.
 
 ## Conclusion
 
-. With the technique like transfer learning and data augmentation, we can achieve significant accuracy with the fewer data without overfitting our model.
+. With the technique like transfer learning and data augmentation, we can further improve the performance without overfitting the model.
 
 . Model accuracy increased from 0.84 to 0.86.
-
-
-
-
 
 ## Reference
 https://www.tensorflow.org/tutorials/images/transfer_learning
