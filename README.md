@@ -1,5 +1,5 @@
 # Skin Cancer: Malignant vs. Benign
-A machine learning model was built for skin cancer classification: Malignant vs Benign, using a convolutional neural network (CNN). The concepts of transfer learning and data augmentation was used to improve the accuracy of the model with less sample available.
+A machine learning model was built for skin cancer classification: Malignant vs Benign, using a convolutional neural network (CNN). The concepts of transfer learning and data augmentation was used to improve the accuracy of the model with less sample available without overfitting it.
 
 ## Dataset
 . Kaggle - https://www.kaggle.com/fanconic/skin-cancer-malignant-vs-benign
